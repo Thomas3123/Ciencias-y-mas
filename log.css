@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: linear-gradient(to bottom, #b96a29, #977a44, #7c864c, #409672, #c9635f, #b96a29);
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#Container{
+  background-color: rgb(36, 46, 53);
+  display: flex;
+  position: static;
+}
+
+.semiAll{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  height: 540px;
+  width: 600px;
+  align-content: center;
+  border-width: 10px;
+  border-color: #4c6a86;
+  right: -300px;
+  position: relative;
+  display: block;
+  rotate: 3grad;
+  transition: all 0.3s ease-in-out;
+}
+
+.semiAll:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  height: 540px;
+  width: 600px;
+  align-content: center;
+  right: -300px;
+  position: relative;
+  display: block;
+  border-radius: 250px;
+  border-width: 3px;
+  border-color: rgba(134, 97, 97, 0.1);
+  rotate: 3grad;
+  transition-duration: 2s;
+  transition: all 1s ease-in-out;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+  border: 1px solid #6a8d78;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.logeoInput a {
+  font-weight: bold;
+  text-decoration: underline;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #68927b;
+  border-radius: 5px;
+  width: 130px;
+  top: 8vh;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.logeoInput a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #1e8496;
+  border-radius: 30px;
+  width: 133px;
+  transition-duration: 0.8s;
+}
+
+.semiAll{
+  background-color: #87a79a;
+  border-color: #407496;
+  border-width: 10px;
+  padding: 50px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  color: #555;
+}
+
+.logeoInput {
+  border-radius: 25px;
+  text-decoration: none;
+  width: 300px;
+}
+
+label {
+  color: #555;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.logBoton a{
+  top: 2vh;
+  background-color: #46a843;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #0c2e20;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  width: 100px;
+  height: 15px;
+}
+
+.logBoton a:hover{
+  background-color: #56bb12;
+  border-width: 2px;
+  border-color: #4c6a86;
+  border-radius: 20px;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.semiAll input:hover{
+  border-radius: 20px;  
+  transition-duration: 1s;
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+  display: block;
+  position: relative;
+}
